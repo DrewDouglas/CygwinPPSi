@@ -1,0 +1,2204 @@
+GNU Make 4.1
+Built for x86_64-unknown-cygwin
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'Makefile'...
+Reading makefile '/home/Drew/PPSi_Cygwin/.config' (search path) (don't care) (no ~ expansion)...
+Reading makefile 'arch-cygwin/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'time-cygwin/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'proto-standard/Makefile' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'proto-standard/Makefile'.
+  Looking for an implicit rule for 'proto-standard/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.o'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.sh'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/RCS/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/RCS/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.o'.
+  Looking for a rule with intermediate file 'proto-standard/Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.c'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.p'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.f'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.m'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.s'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.mod'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'proto-standard/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'proto-standard/RCS/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'proto-standard/RCS/Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'proto-standard/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.c'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.w'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'proto-standard/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.y'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'proto-standard/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.l'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'proto-standard/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.w'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'proto-standard/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Rejecting impossible implicit prerequisite 'proto-standard/Makefile.w'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.cc'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'proto-standard/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.C'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'proto-standard/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.cpp'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'proto-standard/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.p'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.web'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'proto-standard/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.web'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'proto-standard/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.web'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.f'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.r'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'proto-standard/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.F'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'proto-standard/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.r'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile'.
+     Rejecting impossible implicit prerequisite 'proto-standard/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'proto-standard/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'proto-standard/Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.m'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.ym'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'proto-standard/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.ym'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'proto-standard/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.ym'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'proto-standard/Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.s'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.S'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'proto-standard/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'proto-standard/Makefile.S'.
+    Looking for a rule with intermediate file 'proto-standard/Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'proto-standard/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'proto-standard/RCS/Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'proto-standard/s.Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'proto-standard/Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'proto-standard/Makefile.mod'.
+   Looking for a rule with intermediate file 'proto-standard/Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'proto-standard/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'proto-standard/RCS/Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'proto-standard/s.Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'proto-standard/Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'proto-standard/Makefile.sh'.
+  Looking for a rule with intermediate file 'proto-standard/Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'proto-standard/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'proto-standard/RCS/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'proto-standard/RCS/Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'proto-standard/s.Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'proto-standard/SCCS/s.Makefile.sh'.
+  No implicit rule found for 'proto-standard/Makefile'.
+  Finished prerequisites of target file 'proto-standard/Makefile'.
+ No need to remake target 'proto-standard/Makefile'.
+ Considering target file 'time-cygwin/Makefile'.
+  Looking for an implicit rule for 'time-cygwin/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.o'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.sh'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/RCS/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/RCS/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.o'.
+  Looking for a rule with intermediate file 'time-cygwin/Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.c'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.p'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.f'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.m'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.s'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.mod'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'time-cygwin/RCS/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'time-cygwin/RCS/Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'time-cygwin/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.c'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.w'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.y'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.l'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.w'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.w'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.cc'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.C'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.cpp'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.p'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.web'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.web'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.web'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.f'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.r'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.F'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.r'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile'.
+     Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.m'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.ym'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.ym'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.ym'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.s'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.S'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.S'.
+    Looking for a rule with intermediate file 'time-cygwin/Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'time-cygwin/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'time-cygwin/RCS/Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'time-cygwin/s.Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.mod'.
+   Looking for a rule with intermediate file 'time-cygwin/Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'time-cygwin/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'time-cygwin/RCS/Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'time-cygwin/s.Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'time-cygwin/Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'time-cygwin/Makefile.sh'.
+  Looking for a rule with intermediate file 'time-cygwin/Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'time-cygwin/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'time-cygwin/RCS/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'time-cygwin/RCS/Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'time-cygwin/s.Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'time-cygwin/SCCS/s.Makefile.sh'.
+  No implicit rule found for 'time-cygwin/Makefile'.
+  Finished prerequisites of target file 'time-cygwin/Makefile'.
+ No need to remake target 'time-cygwin/Makefile'.
+ Considering target file 'arch-cygwin/Makefile'.
+  Looking for an implicit rule for 'arch-cygwin/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.o'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.sh'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/RCS/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/RCS/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.o'.
+  Looking for a rule with intermediate file 'arch-cygwin/Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.c'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.p'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.f'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.m'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.s'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.mod'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'arch-cygwin/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.c'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.w'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.y'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.l'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.w'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.w'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.cc'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.C'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.cpp'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.p'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.web'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.web'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.web'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.f'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.r'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.F'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.r'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile'.
+     Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.m'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.ym'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.ym'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.ym'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.s'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.S'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.S'.
+    Looking for a rule with intermediate file 'arch-cygwin/Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'arch-cygwin/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'arch-cygwin/s.Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.mod'.
+   Looking for a rule with intermediate file 'arch-cygwin/Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'arch-cygwin/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'arch-cygwin/s.Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'arch-cygwin/Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'arch-cygwin/Makefile.sh'.
+  Looking for a rule with intermediate file 'arch-cygwin/Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'arch-cygwin/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'arch-cygwin/RCS/Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'arch-cygwin/s.Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'arch-cygwin/SCCS/s.Makefile.sh'.
+  No implicit rule found for 'arch-cygwin/Makefile'.
+  Finished prerequisites of target file 'arch-cygwin/Makefile'.
+ No need to remake target 'arch-cygwin/Makefile'.
+ Considering target file '/home/Drew/PPSi_Cygwin/.config'.
+  Looking for an implicit rule for '/home/Drew/PPSi_Cygwin/.config'.
+  Trying pattern rule with stem '.'.
+  Found an implicit rule for '/home/Drew/PPSi_Cygwin/.config'.
+  Finished prerequisites of target file '/home/Drew/PPSi_Cygwin/.config'.
+ No need to remake target '/home/Drew/PPSi_Cygwin/.config'.
+ Considering target file 'Makefile'.
+  Looking for an implicit rule for 'Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.o'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.sh'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'RCS/Makefile,v'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'RCS/Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 's.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'SCCS/s.Makefile'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.o'.
+  Looking for a rule with intermediate file 'Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.c'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.p'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.f'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.m'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.s'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.mod'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'RCS/Makefile.o,v'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'RCS/Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 's.Makefile.o'.
+   Trying pattern rule with stem 'Makefile.o'.
+   Trying implicit prerequisite 'SCCS/s.Makefile.o'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.c'.
+   Looking for a rule with intermediate file 'Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'RCS/Makefile.c,v'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'RCS/Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 's.Makefile.c'.
+    Trying pattern rule with stem 'Makefile.c'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.c'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.y'.
+    Looking for a rule with intermediate file 'Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'RCS/Makefile.y,v'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'RCS/Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 's.Makefile.y'.
+     Trying pattern rule with stem 'Makefile.y'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.y'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.l'.
+    Looking for a rule with intermediate file 'Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'RCS/Makefile.l,v'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'RCS/Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 's.Makefile.l'.
+     Trying pattern rule with stem 'Makefile.l'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.l'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.w'.
+    Looking for a rule with intermediate file 'Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'RCS/Makefile.w,v'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'RCS/Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 's.Makefile.w'.
+     Trying pattern rule with stem 'Makefile.w'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.w'.
+    Trying pattern rule with stem 'Makefile'.
+    Rejecting impossible implicit prerequisite 'Makefile.w'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cc'.
+   Looking for a rule with intermediate file 'Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'RCS/Makefile.cc,v'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'RCS/Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 's.Makefile.cc'.
+    Trying pattern rule with stem 'Makefile.cc'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.C'.
+   Looking for a rule with intermediate file 'Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'RCS/Makefile.C,v'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'RCS/Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 's.Makefile.C'.
+    Trying pattern rule with stem 'Makefile.C'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.C'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.cpp'.
+   Looking for a rule with intermediate file 'Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'RCS/Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 's.Makefile.cpp'.
+    Trying pattern rule with stem 'Makefile.cpp'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.p'.
+   Looking for a rule with intermediate file 'Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.web'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'RCS/Makefile.p,v'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'RCS/Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 's.Makefile.p'.
+    Trying pattern rule with stem 'Makefile.p'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.p'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.web'.
+    Looking for a rule with intermediate file 'Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'RCS/Makefile.web,v'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'RCS/Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 's.Makefile.web'.
+     Trying pattern rule with stem 'Makefile.web'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.web'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.f'.
+   Looking for a rule with intermediate file 'Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.r'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'RCS/Makefile.f,v'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'RCS/Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 's.Makefile.f'.
+    Trying pattern rule with stem 'Makefile.f'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.f'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.F'.
+    Looking for a rule with intermediate file 'Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'RCS/Makefile.F,v'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'RCS/Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 's.Makefile.F'.
+     Trying pattern rule with stem 'Makefile.F'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.F'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.r'.
+    Looking for a rule with intermediate file 'Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile'.
+     Rejecting impossible implicit prerequisite 'Makefile.l'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'RCS/Makefile.r,v'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'RCS/Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 's.Makefile.r'.
+     Trying pattern rule with stem 'Makefile.r'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.F'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.m'.
+   Looking for a rule with intermediate file 'Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.ym'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'RCS/Makefile.m,v'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'RCS/Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 's.Makefile.m'.
+    Trying pattern rule with stem 'Makefile.m'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.m'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.ym'.
+    Looking for a rule with intermediate file 'Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'RCS/Makefile.ym,v'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'RCS/Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 's.Makefile.ym'.
+     Trying pattern rule with stem 'Makefile.ym'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.ym'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.r'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.s'.
+   Looking for a rule with intermediate file 'Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.S'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'RCS/Makefile.s,v'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'RCS/Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 's.Makefile.s'.
+    Trying pattern rule with stem 'Makefile.s'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.s'.
+    Trying pattern rule with stem 'Makefile'.
+    Trying implicit prerequisite 'Makefile.S'.
+    Looking for a rule with intermediate file 'Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'RCS/Makefile.S,v'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'RCS/Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 's.Makefile.S'.
+     Trying pattern rule with stem 'Makefile.S'.
+     Trying implicit prerequisite 'SCCS/s.Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Rejecting impossible implicit prerequisite 'Makefile.S'.
+   Trying pattern rule with stem 'Makefile'.
+   Trying implicit prerequisite 'Makefile.mod'.
+   Looking for a rule with intermediate file 'Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'RCS/Makefile.mod,v'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'RCS/Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 's.Makefile.mod'.
+    Trying pattern rule with stem 'Makefile.mod'.
+    Trying implicit prerequisite 'SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.c'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.cc'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.C'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.cpp'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.p'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.f'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.F'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.m'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.r'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.s'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.S'.
+  Trying pattern rule with stem 'Makefile'.
+  Rejecting impossible implicit prerequisite 'Makefile.mod'.
+  Trying pattern rule with stem 'Makefile'.
+  Trying implicit prerequisite 'Makefile.sh'.
+  Looking for a rule with intermediate file 'Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'RCS/Makefile.sh,v'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'RCS/Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 's.Makefile.sh'.
+   Trying pattern rule with stem 'Makefile.sh'.
+   Trying implicit prerequisite 'SCCS/s.Makefile.sh'.
+  No implicit rule found for 'Makefile'.
+  Finished prerequisites of target file 'Makefile'.
+ No need to remake target 'Makefile'.
+Updating goal targets....
+Considering target file 'menuconfig'.
+ File 'menuconfig' does not exist.
+ Looking for an implicit rule for 'menuconfig'.
+ Trying pattern rule with stem 'menu'.
+ Found an implicit rule for 'menuconfig'.
+ Finished prerequisites of target file 'menuconfig'.
+Must remake target 'menuconfig'.
+make -f Makefile.kconfig menuconfig
+Putting child 0x60006c1f0 (menuconfig) PID 9344 on the chain.
+Live child 0x60006c1f0 (menuconfig) PID 9344 
+GNU Make 4.1
+Built for x86_64-unknown-cygwin
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'Makefile.kconfig'...
+make[1]: Entering directory '/home/Drew/PPSi_Cygwin'
+Reading makefile '/home/Drew/PPSi_Cygwin/scripts/Kbuild.include' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file '/home/Drew/PPSi_Cygwin/scripts/Kbuild.include'.
+  Finished prerequisites of target file '/home/Drew/PPSi_Cygwin/scripts/Kbuild.include'.
+ No need to remake target '/home/Drew/PPSi_Cygwin/scripts/Kbuild.include'.
+ Considering target file 'Makefile.kconfig'.
+  Looking for an implicit rule for 'Makefile.kconfig'.
+  Trying pattern rule with stem 'Makefile.k'.
+  Trying rule prerequisite 'scripts_basic'.
+  Trying rule prerequisite 'FORCE'.
+  Found an implicit rule for 'Makefile.kconfig'.
+   Considering target file 'scripts_basic'.
+    File 'scripts_basic' does not exist.
+    Finished prerequisites of target file 'scripts_basic'.
+   Must remake target 'scripts_basic'.
+make -f scripts/Makefile.build obj=scripts/basic
+Putting child 0x60005a2b0 (scripts_basic) PID 4032 on the chain.
+Live child 0x60005a2b0 (scripts_basic) PID 4032 
+GNU Make 4.1
+Built for x86_64-unknown-cygwin
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'scripts/Makefile.build'...
+Reading makefile 'include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile 'scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile '/home/Drew/PPSi_Cygwin/scripts/basic/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.host' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'scripts/Makefile.host'.
+  Looking for an implicit rule for 'scripts/Makefile.host'.
+  No implicit rule found for 'scripts/Makefile.host'.
+  Finished prerequisites of target file 'scripts/Makefile.host'.
+ No need to remake target 'scripts/Makefile.host'.
+ Considering target file 'scripts/Makefile.lib'.
+  Looking for an implicit rule for 'scripts/Makefile.lib'.
+  No implicit rule found for 'scripts/Makefile.lib'.
+  Finished prerequisites of target file 'scripts/Makefile.lib'.
+ No need to remake target 'scripts/Makefile.lib'.
+ Considering target file '/home/Drew/PPSi_Cygwin/scripts/basic/Makefile'.
+  Looking for an implicit rule for '/home/Drew/PPSi_Cygwin/scripts/basic/Makefile'.
+  No implicit rule found for '/home/Drew/PPSi_Cygwin/scripts/basic/Makefile'.
+  Finished prerequisites of target file '/home/Drew/PPSi_Cygwin/scripts/basic/Makefile'.
+ No need to remake target '/home/Drew/PPSi_Cygwin/scripts/basic/Makefile'.
+ Considering target file 'scripts/Kbuild.include'.
+  Looking for an implicit rule for 'scripts/Kbuild.include'.
+  No implicit rule found for 'scripts/Kbuild.include'.
+  Finished prerequisites of target file 'scripts/Kbuild.include'.
+ No need to remake target 'scripts/Kbuild.include'.
+ Considering target file 'include/config/auto.conf'.
+  File 'include/config/auto.conf' does not exist.
+  Looking for an implicit rule for 'include/config/auto.conf'.
+  No implicit rule found for 'include/config/auto.conf'.
+  Finished prerequisites of target file 'include/config/auto.conf'.
+ Must remake target 'include/config/auto.conf'.
+ Failed to remake target file 'include/config/auto.conf'.
+ Considering target file 'scripts/Makefile.build'.
+  Looking for an implicit rule for 'scripts/Makefile.build'.
+  No implicit rule found for 'scripts/Makefile.build'.
+  Finished prerequisites of target file 'scripts/Makefile.build'.
+ No need to remake target 'scripts/Makefile.build'.
+Updating goal targets....
+Considering target file '__build'.
+ File '__build' does not exist.
+  Considering target file 'scripts/basic/fixdep'.
+    Considering target file 'scripts/basic/fixdep.c'.
+     Looking for an implicit rule for 'scripts/basic/fixdep.c'.
+     Trying pattern rule with stem 'fixdep.c'.
+     Trying implicit prerequisite 'scripts/basic/fixdep.c_shipped'.
+     No implicit rule found for 'scripts/basic/fixdep.c'.
+     Finished prerequisites of target file 'scripts/basic/fixdep.c'.
+    No need to remake target 'scripts/basic/fixdep.c'.
+    Considering target file 'FORCE'.
+     File 'FORCE' does not exist.
+     Finished prerequisites of target file 'FORCE'.
+    Must remake target 'FORCE'.
+    Successfully remade target file 'FORCE'.
+   Finished prerequisites of target file 'scripts/basic/fixdep'.
+   Prerequisite 'scripts/basic/fixdep.c' is older than target 'scripts/basic/fixdep'.
+   Prerequisite 'FORCE' of target 'scripts/basic/fixdep' does not exist.
+  Must remake target 'scripts/basic/fixdep'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/fixdep scripts/basic/fixdep.c  '; gcc -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/fixdep scripts/basic/fixdep.c  ; scripts/basic/fixdep scripts/basic/.fixdep.d scripts/basic/fixdep 'gcc -Wp,-MD,scripts/basic/.fixdep.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/fixdep scripts/basic/fixdep.c  ' > scripts/basic/.fixdep.tmp; rm -f scripts/basic/.fixdep.d; mv -f scripts/basic/.fixdep.tmp scripts/basic/.fixdep.cmd				#########
+Putting child 0x60006dba0 (scripts/basic/fixdep) PID 7236 on the chain.
+Live child 0x60006dba0 (scripts/basic/fixdep) PID 7236 
+Reaping winning child 0x60006dba0 PID 7236 
+Removing child 0x60006dba0 PID 7236 from chain.
+  Successfully remade target file 'scripts/basic/fixdep'.
+  Considering target file 'scripts/basic/docproc'.
+    Considering target file 'scripts/basic/docproc.c'.
+     Looking for an implicit rule for 'scripts/basic/docproc.c'.
+     Trying pattern rule with stem 'docproc.c'.
+     Trying implicit prerequisite 'scripts/basic/docproc.c_shipped'.
+     No implicit rule found for 'scripts/basic/docproc.c'.
+     Finished prerequisites of target file 'scripts/basic/docproc.c'.
+    No need to remake target 'scripts/basic/docproc.c'.
+    Pruning file 'FORCE'.
+    Pruning file 'scripts/basic/fixdep'.
+   Finished prerequisites of target file 'scripts/basic/docproc'.
+   Prerequisite 'scripts/basic/docproc.c' is older than target 'scripts/basic/docproc'.
+   Prerequisite 'FORCE' of target 'scripts/basic/docproc' does not exist.
+   Prerequisite 'scripts/basic/fixdep' is older than target 'scripts/basic/docproc'.
+  Must remake target 'scripts/basic/docproc'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  '; gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  ; scripts/basic/fixdep scripts/basic/.docproc.d scripts/basic/docproc 'gcc -Wp,-MD,scripts/basic/.docproc.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/docproc scripts/basic/docproc.c  ' > scripts/basic/.docproc.tmp; rm -f scripts/basic/.docproc.d; mv -f scripts/basic/.docproc.tmp scripts/basic/.docproc.cmd				#########
+Putting child 0x6000688e0 (scripts/basic/docproc) PID 2528 on the chain.
+Live child 0x6000688e0 (scripts/basic/docproc) PID 2528 
+Reaping winning child 0x6000688e0 PID 2528 
+Removing child 0x6000688e0 PID 2528 from chain.
+  Successfully remade target file 'scripts/basic/docproc'.
+  Considering target file 'scripts/basic/hash'.
+    Considering target file 'scripts/basic/hash.c'.
+     Looking for an implicit rule for 'scripts/basic/hash.c'.
+     Trying pattern rule with stem 'hash.c'.
+     Trying implicit prerequisite 'scripts/basic/hash.c_shipped'.
+     No implicit rule found for 'scripts/basic/hash.c'.
+     Finished prerequisites of target file 'scripts/basic/hash.c'.
+    No need to remake target 'scripts/basic/hash.c'.
+    Pruning file 'FORCE'.
+    Pruning file 'scripts/basic/fixdep'.
+   Finished prerequisites of target file 'scripts/basic/hash'.
+   Prerequisite 'scripts/basic/hash.c' is older than target 'scripts/basic/hash'.
+   Prerequisite 'FORCE' of target 'scripts/basic/hash' does not exist.
+   Prerequisite 'scripts/basic/fixdep' is older than target 'scripts/basic/hash'.
+  Must remake target 'scripts/basic/hash'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  '; gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  ; scripts/basic/fixdep scripts/basic/.hash.d scripts/basic/hash 'gcc -Wp,-MD,scripts/basic/.hash.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer     -o scripts/basic/hash scripts/basic/hash.c  ' > scripts/basic/.hash.tmp; rm -f scripts/basic/.hash.d; mv -f scripts/basic/.hash.tmp scripts/basic/.hash.cmd				#########
+Putting child 0x600054f60 (scripts/basic/hash) PID 9604 on the chain.
+Live child 0x600054f60 (scripts/basic/hash) PID 9604 
+Reaping winning child 0x600054f60 PID 9604 
+Removing child 0x600054f60 PID 9604 from chain.
+  Successfully remade target file 'scripts/basic/hash'.
+ Finished prerequisites of target file '__build'.
+Must remake target '__build'.
+Successfully remade target file '__build'.
+Reaping winning child 0x60005a2b0 PID 4032 
+Removing child 0x60005a2b0 PID 4032 from chain.
+   Successfully remade target file 'scripts_basic'.
+   Considering target file 'FORCE'.
+    File 'FORCE' does not exist.
+    Finished prerequisites of target file 'FORCE'.
+   Must remake target 'FORCE'.
+   Successfully remade target file 'FORCE'.
+  Finished prerequisites of target file 'Makefile.kconfig'.
+  Prerequisite 'scripts_basic' of target 'Makefile.kconfig' does not exist.
+  Prerequisite 'FORCE' of target 'Makefile.kconfig' does not exist.
+ Must remake target 'Makefile.kconfig'.
+make -f scripts/Makefile.build obj=scripts/kconfig Makefile.kconfig
+Putting child 0x60005a2b0 (Makefile.kconfig) PID 8456 on the chain.
+Live child 0x60005a2b0 (Makefile.kconfig) PID 8456 
+GNU Make 4.1
+Built for x86_64-unknown-cygwin
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'scripts/Makefile.build'...
+Reading makefile 'include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile 'scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.host' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'scripts/Makefile.host'.
+  Looking for an implicit rule for 'scripts/Makefile.host'.
+  No implicit rule found for 'scripts/Makefile.host'.
+  Finished prerequisites of target file 'scripts/Makefile.host'.
+ No need to remake target 'scripts/Makefile.host'.
+ Considering target file 'scripts/Makefile.lib'.
+  Looking for an implicit rule for 'scripts/Makefile.lib'.
+  No implicit rule found for 'scripts/Makefile.lib'.
+  Finished prerequisites of target file 'scripts/Makefile.lib'.
+ No need to remake target 'scripts/Makefile.lib'.
+ Considering target file '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+  Looking for an implicit rule for '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+  No implicit rule found for '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+  Finished prerequisites of target file '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+ No need to remake target '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+ Considering target file 'scripts/Kbuild.include'.
+  Looking for an implicit rule for 'scripts/Kbuild.include'.
+  No implicit rule found for 'scripts/Kbuild.include'.
+  Finished prerequisites of target file 'scripts/Kbuild.include'.
+ No need to remake target 'scripts/Kbuild.include'.
+ Considering target file 'include/config/auto.conf'.
+  File 'include/config/auto.conf' does not exist.
+  Looking for an implicit rule for 'include/config/auto.conf'.
+  No implicit rule found for 'include/config/auto.conf'.
+  Finished prerequisites of target file 'include/config/auto.conf'.
+ Must remake target 'include/config/auto.conf'.
+ Failed to remake target file 'include/config/auto.conf'.
+ Considering target file 'scripts/Makefile.build'.
+  Looking for an implicit rule for 'scripts/Makefile.build'.
+  No implicit rule found for 'scripts/Makefile.build'.
+  Finished prerequisites of target file 'scripts/Makefile.build'.
+ No need to remake target 'scripts/Makefile.build'.
+Updating goal targets....
+Considering target file 'Makefile.kconfig'.
+ Looking for an implicit rule for 'Makefile.kconfig'.
+ No implicit rule found for 'Makefile.kconfig'.
+ Finished prerequisites of target file 'Makefile.kconfig'.
+No need to remake target 'Makefile.kconfig'.
+make[2]: Nothing to be done for 'Makefile.kconfig'.
+Reaping winning child 0x60005a2b0 PID 8456 
+Removing child 0x60005a2b0 PID 8456 from chain.
+ Successfully remade target file 'Makefile.kconfig'.
+Updating goal targets....
+Considering target file 'menuconfig'.
+ File 'menuconfig' does not exist.
+ Looking for an implicit rule for 'menuconfig'.
+ Trying pattern rule with stem 'menu'.
+ Trying rule prerequisite 'scripts_basic'.
+ Trying rule prerequisite 'FORCE'.
+ Found an implicit rule for 'menuconfig'.
+  Pruning file 'scripts_basic'.
+  Pruning file 'FORCE'.
+ Finished prerequisites of target file 'menuconfig'.
+Must remake target 'menuconfig'.
+make -f scripts/Makefile.build obj=scripts/kconfig menuconfig
+Putting child 0x600059d10 (menuconfig) PID 3200 on the chain.
+Live child 0x600059d10 (menuconfig) PID 3200 
+GNU Make 4.1
+Built for x86_64-unknown-cygwin
+Copyright (C) 1988-2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'scripts/Makefile.build'...
+Reading makefile 'include/config/auto.conf' (search path) (don't care) (no ~ expansion)...
+Reading makefile 'scripts/Kbuild.include' (search path) (no ~ expansion)...
+Reading makefile '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.lib' (search path) (no ~ expansion)...
+Reading makefile 'scripts/Makefile.host' (search path) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'scripts/Makefile.host'.
+  Looking for an implicit rule for 'scripts/Makefile.host'.
+  No implicit rule found for 'scripts/Makefile.host'.
+  Finished prerequisites of target file 'scripts/Makefile.host'.
+ No need to remake target 'scripts/Makefile.host'.
+ Considering target file 'scripts/Makefile.lib'.
+  Looking for an implicit rule for 'scripts/Makefile.lib'.
+  No implicit rule found for 'scripts/Makefile.lib'.
+  Finished prerequisites of target file 'scripts/Makefile.lib'.
+ No need to remake target 'scripts/Makefile.lib'.
+ Considering target file '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+  Looking for an implicit rule for '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+  No implicit rule found for '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+  Finished prerequisites of target file '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+ No need to remake target '/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile'.
+ Considering target file 'scripts/Kbuild.include'.
+  Looking for an implicit rule for 'scripts/Kbuild.include'.
+  No implicit rule found for 'scripts/Kbuild.include'.
+  Finished prerequisites of target file 'scripts/Kbuild.include'.
+ No need to remake target 'scripts/Kbuild.include'.
+ Considering target file 'include/config/auto.conf'.
+  File 'include/config/auto.conf' does not exist.
+  Looking for an implicit rule for 'include/config/auto.conf'.
+  No implicit rule found for 'include/config/auto.conf'.
+  Finished prerequisites of target file 'include/config/auto.conf'.
+ Must remake target 'include/config/auto.conf'.
+ Failed to remake target file 'include/config/auto.conf'.
+ Considering target file 'scripts/Makefile.build'.
+  Looking for an implicit rule for 'scripts/Makefile.build'.
+  No implicit rule found for 'scripts/Makefile.build'.
+  Finished prerequisites of target file 'scripts/Makefile.build'.
+ No need to remake target 'scripts/Makefile.build'.
+Updating goal targets....
+Considering target file 'menuconfig'.
+ File 'menuconfig' does not exist.
+  Considering target file 'scripts/kconfig/mconf'.
+   File 'scripts/kconfig/mconf' does not exist.
+    Considering target file 'scripts/kconfig/conf.o'.
+     File 'scripts/kconfig/conf.o' does not exist.
+      Considering target file 'scripts/kconfig/conf.c'.
+       Looking for an implicit rule for 'scripts/kconfig/conf.c'.
+       Trying pattern rule with stem 'conf.c'.
+       Trying implicit prerequisite 'scripts/kconfig/conf.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/conf.c'.
+       Finished prerequisites of target file 'scripts/kconfig/conf.c'.
+      No need to remake target 'scripts/kconfig/conf.c'.
+      Considering target file 'FORCE'.
+       File 'FORCE' does not exist.
+       Finished prerequisites of target file 'FORCE'.
+      Must remake target 'FORCE'.
+      Successfully remade target file 'FORCE'.
+     Finished prerequisites of target file 'scripts/kconfig/conf.o'.
+    Must remake target 'scripts/kconfig/conf.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/.conf.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/conf.o scripts/kconfig/conf.c'; gcc -Wp,-MD,scripts/kconfig/.conf.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/conf.o scripts/kconfig/conf.c; scripts/basic/fixdep scripts/kconfig/.conf.o.d scripts/kconfig/conf.o 'gcc -Wp,-MD,scripts/kconfig/.conf.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/conf.o scripts/kconfig/conf.c' > scripts/kconfig/.conf.o.tmp; rm -f scripts/kconfig/.conf.o.d; mv -f scripts/kconfig/.conf.o.tmp scripts/kconfig/.conf.o.cmd
+Putting child 0x600065400 (scripts/kconfig/conf.o) PID 7424 on the chain.
+Live child 0x600065400 (scripts/kconfig/conf.o) PID 7424 
+Reaping winning child 0x600065400 PID 7424 
+Removing child 0x600065400 PID 7424 from chain.
+    Successfully remade target file 'scripts/kconfig/conf.o'.
+    Considering target file 'scripts/kconfig/kxgettext.o'.
+     File 'scripts/kconfig/kxgettext.o' does not exist.
+      Considering target file 'scripts/kconfig/kxgettext.c'.
+       Looking for an implicit rule for 'scripts/kconfig/kxgettext.c'.
+       Trying pattern rule with stem 'kxgettext.c'.
+       Trying implicit prerequisite 'scripts/kconfig/kxgettext.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/kxgettext.c'.
+       Finished prerequisites of target file 'scripts/kconfig/kxgettext.c'.
+      No need to remake target 'scripts/kconfig/kxgettext.c'.
+      Pruning file 'FORCE'.
+     Finished prerequisites of target file 'scripts/kconfig/kxgettext.o'.
+    Must remake target 'scripts/kconfig/kxgettext.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c'; gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c; scripts/basic/fixdep scripts/kconfig/.kxgettext.o.d scripts/kconfig/kxgettext.o 'gcc -Wp,-MD,scripts/kconfig/.kxgettext.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/kxgettext.o scripts/kconfig/kxgettext.c' > scripts/kconfig/.kxgettext.o.tmp; rm -f scripts/kconfig/.kxgettext.o.d; mv -f scripts/kconfig/.kxgettext.o.tmp scripts/kconfig/.kxgettext.o.cmd
+Putting child 0x600065400 (scripts/kconfig/kxgettext.o) PID 10052 on the chain.
+Live child 0x600065400 (scripts/kconfig/kxgettext.o) PID 10052 
+Reaping winning child 0x600065400 PID 10052 
+Removing child 0x600065400 PID 10052 from chain.
+    Successfully remade target file 'scripts/kconfig/kxgettext.o'.
+    Considering target file 'scripts/kconfig/lxdialog/checklist.o'.
+     File 'scripts/kconfig/lxdialog/checklist.o' does not exist.
+      Considering target file 'scripts/kconfig/lxdialog/checklist.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lxdialog/checklist.c'.
+       Trying pattern rule with stem 'lxdialog/checklist.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lxdialog/checklist.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/lxdialog/checklist.c'.
+       Finished prerequisites of target file 'scripts/kconfig/lxdialog/checklist.c'.
+      No need to remake target 'scripts/kconfig/lxdialog/checklist.c'.
+      Pruning file 'FORCE'.
+      Considering target file 'scripts/kconfig/dochecklxdialog'.
+       File 'scripts/kconfig/dochecklxdialog' does not exist.
+       Finished prerequisites of target file 'scripts/kconfig/dochecklxdialog'.
+      Must remake target 'scripts/kconfig/dochecklxdialog'.
+/home/Drew/PPSi_Cygwin/scripts/kconfig/lxdialog/check-lxdialog.sh -check gcc -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS -lncursesw
+Putting child 0x60008f480 (scripts/kconfig/dochecklxdialog) PID 6488 on the chain.
+Live child 0x60008f480 (scripts/kconfig/dochecklxdialog) PID 6488 
+Reaping winning child 0x60008f480 PID 6488 
+Removing child 0x60008f480 PID 6488 from chain.
+      Successfully remade target file 'scripts/kconfig/dochecklxdialog'.
+     Finished prerequisites of target file 'scripts/kconfig/lxdialog/checklist.o'.
+    Must remake target 'scripts/kconfig/lxdialog/checklist.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/lxdialog/.checklist.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/checklist.c'; gcc -Wp,-MD,scripts/kconfig/lxdialog/.checklist.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/checklist.c; scripts/basic/fixdep scripts/kconfig/lxdialog/.checklist.o.d scripts/kconfig/lxdialog/checklist.o 'gcc -Wp,-MD,scripts/kconfig/lxdialog/.checklist.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/checklist.c' > scripts/kconfig/lxdialog/.checklist.o.tmp; rm -f scripts/kconfig/lxdialog/.checklist.o.d; mv -f scripts/kconfig/lxdialog/.checklist.o.tmp scripts/kconfig/lxdialog/.checklist.o.cmd
+Putting child 0x6000550f0 (scripts/kconfig/lxdialog/checklist.o) PID 8332 on the chain.
+Live child 0x6000550f0 (scripts/kconfig/lxdialog/checklist.o) PID 8332 
+Reaping winning child 0x6000550f0 PID 8332 
+Removing child 0x6000550f0 PID 8332 from chain.
+    Successfully remade target file 'scripts/kconfig/lxdialog/checklist.o'.
+    Considering target file 'scripts/kconfig/lxdialog/inputbox.o'.
+     File 'scripts/kconfig/lxdialog/inputbox.o' does not exist.
+      Considering target file 'scripts/kconfig/lxdialog/inputbox.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lxdialog/inputbox.c'.
+       Trying pattern rule with stem 'lxdialog/inputbox.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lxdialog/inputbox.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/lxdialog/inputbox.c'.
+       Finished prerequisites of target file 'scripts/kconfig/lxdialog/inputbox.c'.
+      No need to remake target 'scripts/kconfig/lxdialog/inputbox.c'.
+      Pruning file 'FORCE'.
+      Pruning file 'scripts/kconfig/dochecklxdialog'.
+     Finished prerequisites of target file 'scripts/kconfig/lxdialog/inputbox.o'.
+    Must remake target 'scripts/kconfig/lxdialog/inputbox.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/lxdialog/.inputbox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/inputbox.c'; gcc -Wp,-MD,scripts/kconfig/lxdialog/.inputbox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/inputbox.c; scripts/basic/fixdep scripts/kconfig/lxdialog/.inputbox.o.d scripts/kconfig/lxdialog/inputbox.o 'gcc -Wp,-MD,scripts/kconfig/lxdialog/.inputbox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/inputbox.c' > scripts/kconfig/lxdialog/.inputbox.o.tmp; rm -f scripts/kconfig/lxdialog/.inputbox.o.d; mv -f scripts/kconfig/lxdialog/.inputbox.o.tmp scripts/kconfig/lxdialog/.inputbox.o.cmd
+Putting child 0x600057e20 (scripts/kconfig/lxdialog/inputbox.o) PID 6064 on the chain.
+Live child 0x600057e20 (scripts/kconfig/lxdialog/inputbox.o) PID 6064 
+Reaping winning child 0x600057e20 PID 6064 
+Removing child 0x600057e20 PID 6064 from chain.
+    Successfully remade target file 'scripts/kconfig/lxdialog/inputbox.o'.
+    Considering target file 'scripts/kconfig/lxdialog/menubox.o'.
+     File 'scripts/kconfig/lxdialog/menubox.o' does not exist.
+      Considering target file 'scripts/kconfig/lxdialog/menubox.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lxdialog/menubox.c'.
+       Trying pattern rule with stem 'lxdialog/menubox.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lxdialog/menubox.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/lxdialog/menubox.c'.
+       Finished prerequisites of target file 'scripts/kconfig/lxdialog/menubox.c'.
+      No need to remake target 'scripts/kconfig/lxdialog/menubox.c'.
+      Pruning file 'FORCE'.
+      Pruning file 'scripts/kconfig/dochecklxdialog'.
+     Finished prerequisites of target file 'scripts/kconfig/lxdialog/menubox.o'.
+    Must remake target 'scripts/kconfig/lxdialog/menubox.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/lxdialog/.menubox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/menubox.o scripts/kconfig/lxdialog/menubox.c'; gcc -Wp,-MD,scripts/kconfig/lxdialog/.menubox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/menubox.o scripts/kconfig/lxdialog/menubox.c; scripts/basic/fixdep scripts/kconfig/lxdialog/.menubox.o.d scripts/kconfig/lxdialog/menubox.o 'gcc -Wp,-MD,scripts/kconfig/lxdialog/.menubox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/menubox.o scripts/kconfig/lxdialog/menubox.c' > scripts/kconfig/lxdialog/.menubox.o.tmp; rm -f scripts/kconfig/lxdialog/.menubox.o.d; mv -f scripts/kconfig/lxdialog/.menubox.o.tmp scripts/kconfig/lxdialog/.menubox.o.cmd
+Putting child 0x600058390 (scripts/kconfig/lxdialog/menubox.o) PID 1944 on the chain.
+Live child 0x600058390 (scripts/kconfig/lxdialog/menubox.o) PID 1944 
+Reaping winning child 0x600058390 PID 1944 
+Removing child 0x600058390 PID 1944 from chain.
+    Successfully remade target file 'scripts/kconfig/lxdialog/menubox.o'.
+    Considering target file 'scripts/kconfig/lxdialog/textbox.o'.
+     File 'scripts/kconfig/lxdialog/textbox.o' does not exist.
+      Considering target file 'scripts/kconfig/lxdialog/textbox.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lxdialog/textbox.c'.
+       Trying pattern rule with stem 'lxdialog/textbox.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lxdialog/textbox.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/lxdialog/textbox.c'.
+       Finished prerequisites of target file 'scripts/kconfig/lxdialog/textbox.c'.
+      No need to remake target 'scripts/kconfig/lxdialog/textbox.c'.
+      Pruning file 'FORCE'.
+      Pruning file 'scripts/kconfig/dochecklxdialog'.
+     Finished prerequisites of target file 'scripts/kconfig/lxdialog/textbox.o'.
+    Must remake target 'scripts/kconfig/lxdialog/textbox.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/lxdialog/.textbox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/textbox.c'; gcc -Wp,-MD,scripts/kconfig/lxdialog/.textbox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/textbox.c; scripts/basic/fixdep scripts/kconfig/lxdialog/.textbox.o.d scripts/kconfig/lxdialog/textbox.o 'gcc -Wp,-MD,scripts/kconfig/lxdialog/.textbox.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/textbox.c' > scripts/kconfig/lxdialog/.textbox.o.tmp; rm -f scripts/kconfig/lxdialog/.textbox.o.d; mv -f scripts/kconfig/lxdialog/.textbox.o.tmp scripts/kconfig/lxdialog/.textbox.o.cmd
+Putting child 0x600058900 (scripts/kconfig/lxdialog/textbox.o) PID 9104 on the chain.
+Live child 0x600058900 (scripts/kconfig/lxdialog/textbox.o) PID 9104 
+Reaping winning child 0x600058900 PID 9104 
+Removing child 0x600058900 PID 9104 from chain.
+    Successfully remade target file 'scripts/kconfig/lxdialog/textbox.o'.
+    Considering target file 'scripts/kconfig/lxdialog/util.o'.
+     File 'scripts/kconfig/lxdialog/util.o' does not exist.
+      Considering target file 'scripts/kconfig/lxdialog/util.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lxdialog/util.c'.
+       Trying pattern rule with stem 'lxdialog/util.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lxdialog/util.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/lxdialog/util.c'.
+       Finished prerequisites of target file 'scripts/kconfig/lxdialog/util.c'.
+      No need to remake target 'scripts/kconfig/lxdialog/util.c'.
+      Pruning file 'FORCE'.
+      Pruning file 'scripts/kconfig/dochecklxdialog'.
+     Finished prerequisites of target file 'scripts/kconfig/lxdialog/util.o'.
+    Must remake target 'scripts/kconfig/lxdialog/util.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/lxdialog/.util.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/util.c'; gcc -Wp,-MD,scripts/kconfig/lxdialog/.util.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/util.c; scripts/basic/fixdep scripts/kconfig/lxdialog/.util.o.d scripts/kconfig/lxdialog/util.o 'gcc -Wp,-MD,scripts/kconfig/lxdialog/.util.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/util.c' > scripts/kconfig/lxdialog/.util.o.tmp; rm -f scripts/kconfig/lxdialog/.util.o.d; mv -f scripts/kconfig/lxdialog/.util.o.tmp scripts/kconfig/lxdialog/.util.o.cmd
+Putting child 0x600058e40 (scripts/kconfig/lxdialog/util.o) PID 3120 on the chain.
+Live child 0x600058e40 (scripts/kconfig/lxdialog/util.o) PID 3120 
+Reaping winning child 0x600058e40 PID 3120 
+Removing child 0x600058e40 PID 3120 from chain.
+    Successfully remade target file 'scripts/kconfig/lxdialog/util.o'.
+    Considering target file 'scripts/kconfig/lxdialog/yesno.o'.
+     File 'scripts/kconfig/lxdialog/yesno.o' does not exist.
+      Considering target file 'scripts/kconfig/lxdialog/yesno.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lxdialog/yesno.c'.
+       Trying pattern rule with stem 'lxdialog/yesno.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lxdialog/yesno.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/lxdialog/yesno.c'.
+       Finished prerequisites of target file 'scripts/kconfig/lxdialog/yesno.c'.
+      No need to remake target 'scripts/kconfig/lxdialog/yesno.c'.
+      Pruning file 'FORCE'.
+      Pruning file 'scripts/kconfig/dochecklxdialog'.
+     Finished prerequisites of target file 'scripts/kconfig/lxdialog/yesno.o'.
+    Must remake target 'scripts/kconfig/lxdialog/yesno.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/lxdialog/.yesno.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/yesno.c'; gcc -Wp,-MD,scripts/kconfig/lxdialog/.yesno.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/yesno.c; scripts/basic/fixdep scripts/kconfig/lxdialog/.yesno.o.d scripts/kconfig/lxdialog/yesno.o 'gcc -Wp,-MD,scripts/kconfig/lxdialog/.yesno.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/yesno.c' > scripts/kconfig/lxdialog/.yesno.o.tmp; rm -f scripts/kconfig/lxdialog/.yesno.o.d; mv -f scripts/kconfig/lxdialog/.yesno.o.tmp scripts/kconfig/lxdialog/.yesno.o.cmd
+Putting child 0x600059380 (scripts/kconfig/lxdialog/yesno.o) PID 8828 on the chain.
+Live child 0x600059380 (scripts/kconfig/lxdialog/yesno.o) PID 8828 
+Reaping winning child 0x600059380 PID 8828 
+Removing child 0x600059380 PID 8828 from chain.
+    Successfully remade target file 'scripts/kconfig/lxdialog/yesno.o'.
+    Considering target file 'scripts/kconfig/mconf.o'.
+     File 'scripts/kconfig/mconf.o' does not exist.
+      Considering target file 'scripts/kconfig/mconf.c'.
+       Looking for an implicit rule for 'scripts/kconfig/mconf.c'.
+       Trying pattern rule with stem 'mconf.c'.
+       Trying implicit prerequisite 'scripts/kconfig/mconf.c_shipped'.
+       No implicit rule found for 'scripts/kconfig/mconf.c'.
+       Finished prerequisites of target file 'scripts/kconfig/mconf.c'.
+      No need to remake target 'scripts/kconfig/mconf.c'.
+      Pruning file 'FORCE'.
+     Finished prerequisites of target file 'scripts/kconfig/mconf.o'.
+    Must remake target 'scripts/kconfig/mconf.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/.mconf.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/mconf.o scripts/kconfig/mconf.c'; gcc -Wp,-MD,scripts/kconfig/.mconf.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/mconf.o scripts/kconfig/mconf.c; scripts/basic/fixdep scripts/kconfig/.mconf.o.d scripts/kconfig/mconf.o 'gcc -Wp,-MD,scripts/kconfig/.mconf.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS  -c -o scripts/kconfig/mconf.o scripts/kconfig/mconf.c' > scripts/kconfig/.mconf.o.tmp; rm -f scripts/kconfig/.mconf.o.d; mv -f scripts/kconfig/.mconf.o.tmp scripts/kconfig/.mconf.o.cmd
+Putting child 0x600059840 (scripts/kconfig/mconf.o) PID 7248 on the chain.
+Live child 0x600059840 (scripts/kconfig/mconf.o) PID 7248 
+Reaping winning child 0x600059840 PID 7248 
+Removing child 0x600059840 PID 7248 from chain.
+    Successfully remade target file 'scripts/kconfig/mconf.o'.
+    Considering target file 'scripts/kconfig/zconf.tab.o'.
+     File 'scripts/kconfig/zconf.tab.o' does not exist.
+      Considering target file 'scripts/kconfig/zconf.tab.c'.
+       Looking for an implicit rule for 'scripts/kconfig/zconf.tab.c'.
+       Trying pattern rule with stem 'zconf.tab.c'.
+       Trying implicit prerequisite 'scripts/kconfig/zconf.tab.c_shipped'.
+       Found an implicit rule for 'scripts/kconfig/zconf.tab.c'.
+        Considering target file 'scripts/kconfig/zconf.tab.c_shipped'.
+         Finished prerequisites of target file 'scripts/kconfig/zconf.tab.c_shipped'.
+        No need to remake target 'scripts/kconfig/zconf.tab.c_shipped'.
+       Finished prerequisites of target file 'scripts/kconfig/zconf.tab.c'.
+       Prerequisite 'scripts/kconfig/zconf.tab.c_shipped' is older than target 'scripts/kconfig/zconf.tab.c'.
+      No need to remake target 'scripts/kconfig/zconf.tab.c'.
+      Pruning file 'FORCE'.
+      Considering target file 'scripts/kconfig/lex.zconf.c'.
+       Looking for an implicit rule for 'scripts/kconfig/lex.zconf.c'.
+       Trying pattern rule with stem 'lex.zconf.c'.
+       Trying implicit prerequisite 'scripts/kconfig/lex.zconf.c_shipped'.
+       Found an implicit rule for 'scripts/kconfig/lex.zconf.c'.
+        Considering target file 'scripts/kconfig/lex.zconf.c_shipped'.
+         Finished prerequisites of target file 'scripts/kconfig/lex.zconf.c_shipped'.
+        No need to remake target 'scripts/kconfig/lex.zconf.c_shipped'.
+       Finished prerequisites of target file 'scripts/kconfig/lex.zconf.c'.
+       Prerequisite 'scripts/kconfig/lex.zconf.c_shipped' is older than target 'scripts/kconfig/lex.zconf.c'.
+      No need to remake target 'scripts/kconfig/lex.zconf.c'.
+      Considering target file 'scripts/kconfig/zconf.hash.c'.
+       Looking for an implicit rule for 'scripts/kconfig/zconf.hash.c'.
+       Trying pattern rule with stem 'zconf.hash.c'.
+       Trying implicit prerequisite 'scripts/kconfig/zconf.hash.c_shipped'.
+       Found an implicit rule for 'scripts/kconfig/zconf.hash.c'.
+        Considering target file 'scripts/kconfig/zconf.hash.c_shipped'.
+         Finished prerequisites of target file 'scripts/kconfig/zconf.hash.c_shipped'.
+        No need to remake target 'scripts/kconfig/zconf.hash.c_shipped'.
+       Finished prerequisites of target file 'scripts/kconfig/zconf.hash.c'.
+       Prerequisite 'scripts/kconfig/zconf.hash.c_shipped' is older than target 'scripts/kconfig/zconf.hash.c'.
+      No need to remake target 'scripts/kconfig/zconf.hash.c'.
+     Finished prerequisites of target file 'scripts/kconfig/zconf.tab.o'.
+    Must remake target 'scripts/kconfig/zconf.tab.o'.
+#  @set -e;  echo '  gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c'; gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c; scripts/basic/fixdep scripts/kconfig/.zconf.tab.o.d scripts/kconfig/zconf.tab.o 'gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer   -I/usr/include/ncurses -DCURSES_LOC="<ncurses.h>" -DLOCALE -DKBUILD_NO_NLS -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c' > scripts/kconfig/.zconf.tab.o.tmp; rm -f scripts/kconfig/.zconf.tab.o.d; mv -f scripts/kconfig/.zconf.tab.o.tmp scripts/kconfig/.zconf.tab.o.cmd
+Putting child 0x6000598d0 (scripts/kconfig/zconf.tab.o) PID 7948 on the chain.
+Live child 0x6000598d0 (scripts/kconfig/zconf.tab.o) PID 7948 
+Reaping winning child 0x6000598d0 PID 7948 
+Removing child 0x6000598d0 PID 7948 from chain.
+    Successfully remade target file 'scripts/kconfig/zconf.tab.o'.
+    Pruning file 'FORCE'.
+   Finished prerequisites of target file 'scripts/kconfig/mconf'.
+  Must remake target 'scripts/kconfig/mconf'.
+#  @set -e;  echo '  gcc  -o scripts/kconfig/mconf scripts/kconfig/mconf.o scripts/kconfig/zconf.tab.o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/menubox.o -lncursesw '; gcc  -o scripts/kconfig/mconf scripts/kconfig/mconf.o scripts/kconfig/zconf.tab.o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/menubox.o -lncursesw ; echo 'cmd_scripts/kconfig/mconf := gcc  -o scripts/kconfig/mconf scripts/kconfig/mconf.o scripts/kconfig/zconf.tab.o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/util.o scripts/kconfig/lxdialog/inputbox.o scripts/kconfig/lxdialog/textbox.o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/menubox.o -lncursesw ' > scripts/kconfig/.mconf.cmd
+Putting child 0x6000598d0 (scripts/kconfig/mconf) PID 9340 on the chain.
+Live child 0x6000598d0 (scripts/kconfig/mconf) PID 9340 
+Reaping winning child 0x6000598d0 PID 9340 
+Removing child 0x6000598d0 PID 9340 from chain.
+  Successfully remade target file 'scripts/kconfig/mconf'.
+ Finished prerequisites of target file 'menuconfig'.
+Must remake target 'menuconfig'.
+scripts/kconfig/mconf /home/Drew/PPSi_Cygwin/Kconfig
+Putting child 0x6000598d0 (menuconfig) PID 5412 on the chain.
+Live child 0x6000598d0 (menuconfig) PID 5412 
+make[2]: scripts/kconfig/mconf: Command not found
+Reaping losing child 0x6000598d0 PID 5412 
+/home/Drew/PPSi_Cygwin/scripts/kconfig/Makefile:21: recipe for target 'menuconfig' failed
+make[2]: *** [menuconfig] Error 127
+Removing child 0x6000598d0 PID 5412 from chain.
+Reaping losing child 0x600059d10 PID 3200 
+Makefile.kconfig:67: recipe for target 'menuconfig' failed
+make[1]: *** [menuconfig] Error 2
+Removing child 0x600059d10 PID 3200 from chain.
+make[1]: Leaving directory '/home/Drew/PPSi_Cygwin'
+Reaping losing child 0x60006c1f0 PID 9344 
+Makefile:107: recipe for target 'menuconfig' failed
+make: *** [menuconfig] Error 2
+Removing child 0x60006c1f0 PID 9344 from chain.

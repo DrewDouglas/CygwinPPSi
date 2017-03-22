@@ -1,0 +1,898 @@
+
+Discarded input sections
+
+ .rdata$.refptr.cygwin_net_ops
+                0x0000000000000000       0x10 arch-cygwin/main-loop.o
+ .rdata$.refptr.pp_global_d_flags
+                0x0000000000000000       0x10 lib/cmdline.o
+ .rdata$.refptr.pp_global_d_flags
+                0x0000000000000000       0x10 lib/conf.o
+ .rdata$.refptr.pp_global_d_flags
+                0x0000000000000000       0x10 time-cygwin/cygwin-time.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/state-listening.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/state-master.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/state-slave.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/common-fun.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/bmc.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/msg.o
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/open-close.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD fsm.o
+LOAD diag.o
+LOAD arch-cygwin/cygwin-startup.o
+LOAD arch-cygwin/main-loop.o
+LOAD arch-cygwin/cygwin-io.o
+LOAD arch-cygwin/cygwin-conf.o
+LOAD lib/cmdline.o
+LOAD lib/conf.o
+LOAD lib/libc-functions.o
+LOAD lib/drop.o
+LOAD lib/div64.o
+LOAD time-cygwin/cygwin-time.o
+LOAD time-cygwin/cygwin-socket.o
+LOAD pp_printf/pp-printf.o
+LOAD proto-standard/fsm-table.o
+LOAD proto-standard/state-initializing.o
+LOAD proto-standard/state-faulty.o
+LOAD proto-standard/state-disabled.o
+LOAD proto-standard/state-listening.o
+LOAD proto-standard/state-pre-master.o
+LOAD proto-standard/state-master.o
+LOAD proto-standard/state-passive.o
+LOAD proto-standard/state-uncalibrated.o
+LOAD proto-standard/state-slave.o
+LOAD proto-standard/common-fun.o
+LOAD proto-standard/bmc.o
+LOAD proto-standard/msg.o
+LOAD proto-standard/arith.o
+LOAD proto-standard/servo.o
+LOAD proto-standard/hooks.o
+LOAD proto-standard/timeout.o
+LOAD proto-standard/open-close.o
+END GROUP
+
+.text           0x0000000000000000     0x57a0
+ *(.text)
+ .text          0x0000000000000000      0x280 fsm.o
+                0x00000000000000c0                pp_state_machine
+ .text          0x0000000000000280       0xf0 diag.o
+                0x0000000000000280                __pp_diag
+                0x0000000000000300                pp_diag_parse
+ .text          0x0000000000000370        0x0 arch-cygwin/cygwin-startup.o
+ .text          0x0000000000000370      0x230 arch-cygwin/main-loop.o
+                0x00000000000003d0                cygwin_main_loop
+ .text          0x00000000000005a0       0x20 arch-cygwin/cygwin-io.o
+                0x00000000000005a0                pp_puts
+ .text          0x00000000000005c0       0x20 arch-cygwin/cygwin-conf.o
+ .text          0x00000000000005e0      0x560 lib/cmdline.o
+                0x00000000000006f0                pp_parse_cmdline
+ .text          0x0000000000000b40      0xa10 lib/conf.o
+                0x0000000000001400                pp_config_file
+                0x0000000000001540                pp_config_string
+ .text          0x0000000000001550      0x190 lib/libc-functions.o
+                0x0000000000001550                puts
+                0x0000000000001560                strnlen
+                0x00000000000015a0                memcpy
+                0x00000000000015d0                memcmp
+                0x0000000000001600                memset
+                0x0000000000001620                strcpy
+                0x0000000000001650                strtol
+                0x00000000000016b0                atoi
+ .text          0x00000000000016e0       0xf0 lib/drop.o
+                0x00000000000016e0                ppsi_drop_init
+                0x0000000000001710                ppsi_drop_rx
+                0x0000000000001770                ppsi_drop_tx
+ .text          0x00000000000017d0       0x70 lib/div64.o
+                0x00000000000017d0                __div64_32
+ .text          0x0000000000001840      0x2c0 time-cygwin/cygwin-time.o
+ .text          0x0000000000001b00      0x950 time-cygwin/cygwin-socket.o
+ .text          0x0000000000002450      0x630 pp_printf/pp-printf.o
+                0x00000000000026ad                pp_vsprintf
+                0x0000000000002a00                pp_vprintf
+                0x0000000000002a2d                pp_sprintf
+                0x0000000000002a4f                pp_printf
+ .text          0x0000000000002a80        0x0 proto-standard/fsm-table.o
+ .text          0x0000000000002a80      0x1b0 proto-standard/state-initializing.o
+                0x0000000000002a80                pp_initializing
+ .text          0x0000000000002c30       0xb0 proto-standard/state-faulty.o
+                0x0000000000002c30                pp_faulty
+ .text          0x0000000000002ce0       0x10 proto-standard/state-disabled.o
+                0x0000000000002ce0                pp_disabled
+ .text          0x0000000000002cf0      0x130 proto-standard/state-listening.o
+                0x0000000000002cf0                pp_listening
+ .text          0x0000000000002e20       0x10 proto-standard/state-pre-master.o
+                0x0000000000002e20                pp_pre_master
+ .text          0x0000000000002e30      0x2c0 proto-standard/state-master.o
+                0x0000000000002e30                pp_master
+ .text          0x00000000000030f0       0xd0 proto-standard/state-passive.o
+                0x00000000000030f0                pp_passive
+ .text          0x00000000000031c0       0x80 proto-standard/state-uncalibrated.o
+                0x00000000000031c0                pp_uncalibrated
+ .text          0x0000000000003240      0x370 proto-standard/state-slave.o
+                0x0000000000003240                pp_slave
+ .text          0x00000000000035b0      0x570 proto-standard/common-fun.o
+                0x0000000000003730                pp_prepare_pointers
+                0x0000000000003790                st_com_execute_slave
+                0x0000000000003870                st_com_slave_handle_announce
+                0x00000000000038e0                st_com_slave_handle_sync
+                0x00000000000039b0                st_com_slave_handle_followup
+                0x0000000000003ac0                st_com_master_handle_announce
+                0x0000000000003b10                st_com_master_handle_sync
+ .text          0x0000000000003b20      0x6d0 proto-standard/bmc.o
+                0x0000000000003cc0                m1
+                0x0000000000003d70                bmc_update_ebest
+                0x0000000000003e50                bmc
+ .text          0x00000000000041f0      0x930 proto-standard/msg.o
+                0x00000000000041f0                msg_unpack_header
+                0x0000000000004310                msg_pack_header
+                0x0000000000004360                msg_unpack_sync
+                0x0000000000004380                msg_unpack_announce
+                0x0000000000004400                msg_unpack_follow_up
+                0x0000000000004420                msg_unpack_delay_req
+                0x0000000000004440                msg_unpack_delay_resp
+                0x0000000000004470                msg_issue_announce
+                0x0000000000004620                msg_issue_sync_followup
+                0x0000000000004870                msg_issue_delay_req
+                0x00000000000049b0                msg_issue_delay_resp
+ .text          0x0000000000004b20      0x1e0 proto-standard/arith.o
+                0x0000000000004b90                cField_to_TimeInternal
+                0x0000000000004c00                from_TimeInternal
+                0x0000000000004c40                to_TimeInternal
+                0x0000000000004c80                add_TimeInternal
+                0x0000000000004ca0                sub_TimeInternal
+                0x0000000000004cc0                div2_TimeInternal
+ .text          0x0000000000004d00      0x860 proto-standard/servo.o
+                0x0000000000004d70                pp_servo_init
+                0x0000000000004e50                pp_servo_got_sync
+                0x0000000000004ed0                pp_servo_got_resp
+ .text          0x0000000000005560        0x0 proto-standard/hooks.o
+ .text          0x0000000000005560       0xd0 proto-standard/timeout.o
+                0x0000000000005560                pp_timeout_log
+                0x00000000000055a0                pp_timeout_rand
+ .text          0x0000000000005630      0x170 proto-standard/open-close.o
+                0x0000000000005630                pp_init_globals
+                0x0000000000005780                pp_close_globals
+ *(.glue_7t)
+ *(.glue_7)
+
+.text.unlikely  0x0000000000000000       0x40
+ .text.unlikely
+                0x0000000000000000        0x0 fsm.o
+ .text.unlikely
+                0x0000000000000000        0x0 diag.o
+ .text.unlikely
+                0x0000000000000000        0x0 arch-cygwin/cygwin-startup.o
+ .text.unlikely
+                0x0000000000000000        0x0 arch-cygwin/main-loop.o
+ .text.unlikely
+                0x0000000000000000        0x0 arch-cygwin/cygwin-io.o
+ .text.unlikely
+                0x0000000000000000        0x0 arch-cygwin/cygwin-conf.o
+ .text.unlikely
+                0x0000000000000000        0x0 lib/cmdline.o
+ .text.unlikely
+                0x0000000000000000        0x0 lib/conf.o
+ .text.unlikely
+                0x0000000000000000        0x0 lib/libc-functions.o
+ .text.unlikely
+                0x0000000000000000        0x0 lib/drop.o
+ .text.unlikely
+                0x0000000000000000        0x0 lib/div64.o
+ .text.unlikely
+                0x0000000000000000       0x40 time-cygwin/cygwin-time.o
+ .text.unlikely
+                0x0000000000000040        0x0 time-cygwin/cygwin-socket.o
+ .text.unlikely
+                0x0000000000000040        0x0 pp_printf/pp-printf.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-initializing.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-faulty.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-disabled.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-listening.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-pre-master.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-master.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-passive.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-uncalibrated.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/state-slave.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/common-fun.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/bmc.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/msg.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/arith.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/servo.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/timeout.o
+ .text.unlikely
+                0x0000000000000040        0x0 proto-standard/open-close.o
+
+.text.startup   0x0000000000000000      0x300
+ .text.startup  0x0000000000000000      0x300 arch-cygwin/cygwin-startup.o
+                0x0000000000000000                main
+
+.data           0x0000000000000000      0x500
+ *(.data)
+ .data          0x0000000000000000        0x0 fsm.o
+ .data          0x0000000000000000        0x0 diag.o
+ .data          0x0000000000000000        0x0 arch-cygwin/cygwin-startup.o
+ .data          0x0000000000000000        0x0 arch-cygwin/main-loop.o
+ .data          0x0000000000000000        0x0 arch-cygwin/cygwin-io.o
+ .data          0x0000000000000000       0x60 arch-cygwin/cygwin-conf.o
+                0x0000000000000000                pp_arch_arglines
+ .data          0x0000000000000060        0x0 lib/cmdline.o
+ .data          0x0000000000000060      0x200 lib/conf.o
+ .data          0x0000000000000260        0x0 lib/libc-functions.o
+ .data          0x0000000000000260        0x0 lib/drop.o
+ .data          0x0000000000000260        0x0 lib/div64.o
+ .data          0x0000000000000260       0x40 time-cygwin/cygwin-time.o
+                0x0000000000000260                cygwin_time_ops
+ .data          0x00000000000002a0       0x40 time-cygwin/cygwin-socket.o
+                0x00000000000002a0                cygwin_net_ops
+ .data          0x00000000000002e0        0x0 pp_printf/pp-printf.o
+ .data          0x00000000000002e0      0x100 proto-standard/fsm-table.o
+                0x00000000000002e0                pp_state_table
+ .data          0x00000000000003e0        0x0 proto-standard/state-initializing.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-faulty.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-disabled.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-listening.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-pre-master.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-master.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-passive.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-uncalibrated.o
+ .data          0x00000000000003e0        0x0 proto-standard/state-slave.o
+ .data          0x00000000000003e0        0x0 proto-standard/common-fun.o
+ .data          0x00000000000003e0        0x0 proto-standard/bmc.o
+ .data          0x00000000000003e0       0x80 proto-standard/msg.o
+                0x00000000000003e0                pp_msg_names
+ .data          0x0000000000000460        0x0 proto-standard/arith.o
+ .data          0x0000000000000460        0x0 proto-standard/servo.o
+ .data          0x0000000000000460        0x0 proto-standard/hooks.o
+ .data          0x0000000000000460       0x40 proto-standard/timeout.o
+ .data          0x00000000000004a0       0x60 proto-standard/open-close.o
+                0x00000000000004a0                __pp_default_rt_opts
+ *(.data2)
+ *(.jcr)
+
+.rdata          0x0000000000000000     0x1640
+ *(.rdata)
+ .rdata         0x0000000000000000       0xd0 fsm.o
+ *fill*         0x00000000000000d0       0x10 
+ .rdata         0x00000000000000e0       0xe0 diag.o
+ .rdata         0x00000000000001c0       0x90 arch-cygwin/cygwin-startup.o
+ .rdata         0x0000000000000250       0x30 arch-cygwin/main-loop.o
+ .rdata         0x0000000000000280       0x10 arch-cygwin/cygwin-conf.o
+ *fill*         0x0000000000000290       0x10 
+ .rdata         0x00000000000002a0      0x7a0 lib/cmdline.o
+ .rdata         0x0000000000000a40      0x1d0 lib/conf.o
+ .rdata         0x0000000000000c10       0xc0 time-cygwin/cygwin-time.o
+ .rdata         0x0000000000000cd0      0x1c0 time-cygwin/cygwin-socket.o
+ .rdata         0x0000000000000e90       0x40 pp_printf/pp-printf.o
+                0x0000000000000eb0                hex_asc
+ .rdata         0x0000000000000ed0       0x60 proto-standard/fsm-table.o
+ .rdata         0x0000000000000f30       0x60 proto-standard/state-initializing.o
+ .rdata         0x0000000000000f90       0x30 proto-standard/state-slave.o
+ .rdata         0x0000000000000fc0      0x130 proto-standard/common-fun.o
+ .rdata         0x00000000000010f0       0xc0 proto-standard/bmc.o
+ .rdata         0x00000000000011b0       0xb0 proto-standard/msg.o
+ .rdata         0x0000000000001260       0xe0 proto-standard/arith.o
+ .rdata         0x0000000000001340      0x230 proto-standard/servo.o
+ .rdata         0x0000000000001570       0x90 proto-standard/timeout.o
+ .rdata         0x0000000000001600       0x30 proto-standard/open-close.o
+ *(.rdata_runtime_pseudo_reloc)
+
+.rdata$zzz      0x0000000000000000      0x420
+ .rdata$zzz     0x0000000000000000       0x20 proto-standard/open-close.o
+ .rdata$zzz     0x0000000000000020       0x20 proto-standard/timeout.o
+ .rdata$zzz     0x0000000000000040       0x20 proto-standard/hooks.o
+ .rdata$zzz     0x0000000000000060       0x20 proto-standard/servo.o
+ .rdata$zzz     0x0000000000000080       0x20 proto-standard/arith.o
+ .rdata$zzz     0x00000000000000a0       0x20 proto-standard/msg.o
+ .rdata$zzz     0x00000000000000c0       0x20 proto-standard/bmc.o
+ .rdata$zzz     0x00000000000000e0       0x20 proto-standard/common-fun.o
+ .rdata$zzz     0x0000000000000100       0x20 proto-standard/state-slave.o
+ .rdata$zzz     0x0000000000000120       0x20 proto-standard/state-uncalibrated.o
+ .rdata$zzz     0x0000000000000140       0x20 proto-standard/state-passive.o
+ .rdata$zzz     0x0000000000000160       0x20 proto-standard/state-master.o
+ .rdata$zzz     0x0000000000000180       0x20 proto-standard/state-pre-master.o
+ .rdata$zzz     0x00000000000001a0       0x20 proto-standard/state-listening.o
+ .rdata$zzz     0x00000000000001c0       0x20 proto-standard/state-disabled.o
+ .rdata$zzz     0x00000000000001e0       0x20 proto-standard/state-faulty.o
+ .rdata$zzz     0x0000000000000200       0x20 proto-standard/state-initializing.o
+ .rdata$zzz     0x0000000000000220       0x20 proto-standard/fsm-table.o
+ .rdata$zzz     0x0000000000000240       0x40 pp_printf/pp-printf.o
+ .rdata$zzz     0x0000000000000280       0x20 time-cygwin/cygwin-socket.o
+ .rdata$zzz     0x00000000000002a0       0x20 time-cygwin/cygwin-time.o
+ .rdata$zzz     0x00000000000002c0       0x20 lib/div64.o
+ .rdata$zzz     0x00000000000002e0       0x20 lib/drop.o
+ .rdata$zzz     0x0000000000000300       0x20 lib/libc-functions.o
+ .rdata$zzz     0x0000000000000320       0x20 lib/conf.o
+ .rdata$zzz     0x0000000000000340       0x20 lib/cmdline.o
+ .rdata$zzz     0x0000000000000360       0x20 arch-cygwin/cygwin-conf.o
+ .rdata$zzz     0x0000000000000380       0x20 arch-cygwin/cygwin-io.o
+ .rdata$zzz     0x00000000000003a0       0x20 arch-cygwin/main-loop.o
+ .rdata$zzz     0x00000000000003c0       0x20 arch-cygwin/cygwin-startup.o
+ .rdata$zzz     0x00000000000003e0       0x20 diag.o
+ .rdata$zzz     0x0000000000000400       0x20 fsm.o
+
+.rdata$.refptr.pp_msg_names
+                0x0000000000000000       0x10
+ .rdata$.refptr.pp_msg_names
+                0x0000000000000000       0x10 fsm.o
+                0x0000000000000000                .refptr.pp_msg_names
+
+.rdata$.refptr.pp_state_table
+                0x0000000000000000       0x10
+ .rdata$.refptr.pp_state_table
+                0x0000000000000000       0x10 fsm.o
+                0x0000000000000000                .refptr.pp_state_table
+
+.rdata$.refptr.pp_global_d_flags
+                0x0000000000000000       0x10
+ .rdata$.refptr.pp_global_d_flags
+                0x0000000000000000       0x10 diag.o
+                0x0000000000000000                .refptr.pp_global_d_flags
+
+.rdata$.refptr.cygwin_time_ops
+                0x0000000000000000       0x10
+ .rdata$.refptr.cygwin_time_ops
+                0x0000000000000000       0x10 arch-cygwin/cygwin-startup.o
+                0x0000000000000000                .refptr.cygwin_time_ops
+
+.rdata$.refptr.cygwin_net_ops
+                0x0000000000000000       0x10
+ .rdata$.refptr.cygwin_net_ops
+                0x0000000000000000       0x10 arch-cygwin/cygwin-startup.o
+                0x0000000000000000                .refptr.cygwin_net_ops
+
+.rdata$.refptr.__pp_default_rt_opts
+                0x0000000000000000       0x10
+ .rdata$.refptr.__pp_default_rt_opts
+                0x0000000000000000       0x10 arch-cygwin/cygwin-startup.o
+                0x0000000000000000                .refptr.__pp_default_rt_opts
+
+.rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10
+ .rdata$.refptr.pp_hooks
+                0x0000000000000000       0x10 proto-standard/state-initializing.o
+                0x0000000000000000                .refptr.pp_hooks
+
+.eh_frame
+ *(.eh_frame*)
+
+.pdata          0x0000000000000000      0x4e0
+ *(.pdata*)
+ .pdata         0x0000000000000000       0x18 fsm.o
+ .pdata         0x0000000000000018       0x18 diag.o
+ .pdata.startup
+                0x0000000000000030        0xc arch-cygwin/cygwin-startup.o
+ .pdata         0x000000000000003c       0x18 arch-cygwin/main-loop.o
+ .pdata         0x0000000000000054        0xc arch-cygwin/cygwin-io.o
+ .pdata         0x0000000000000060       0x18 arch-cygwin/cygwin-conf.o
+ .pdata         0x0000000000000078       0x24 lib/cmdline.o
+ .pdata         0x000000000000009c       0x84 lib/conf.o
+ .pdata         0x0000000000000120       0x60 lib/libc-functions.o
+ .pdata         0x0000000000000180       0x24 lib/drop.o
+ .pdata         0x00000000000001a4        0xc lib/div64.o
+ .pdata         0x00000000000001b0       0x60 time-cygwin/cygwin-time.o
+ .pdata.unlikely
+                0x0000000000000210        0xc time-cygwin/cygwin-time.o
+ .pdata         0x000000000000021c       0x48 time-cygwin/cygwin-socket.o
+ .pdata         0x0000000000000264       0x48 pp_printf/pp-printf.o
+ .pdata         0x00000000000002ac        0xc proto-standard/state-initializing.o
+ .pdata         0x00000000000002b8        0xc proto-standard/state-faulty.o
+ .pdata         0x00000000000002c4        0xc proto-standard/state-disabled.o
+ .pdata         0x00000000000002d0        0xc proto-standard/state-listening.o
+ .pdata         0x00000000000002dc        0xc proto-standard/state-pre-master.o
+ .pdata         0x00000000000002e8        0xc proto-standard/state-master.o
+ .pdata         0x00000000000002f4        0xc proto-standard/state-passive.o
+ .pdata         0x0000000000000300        0xc proto-standard/state-uncalibrated.o
+ .pdata         0x000000000000030c        0xc proto-standard/state-slave.o
+ .pdata         0x0000000000000318       0x60 proto-standard/common-fun.o
+ .pdata         0x0000000000000378       0x30 proto-standard/bmc.o
+ .pdata         0x00000000000003a8       0x84 proto-standard/msg.o
+ .pdata         0x000000000000042c       0x54 proto-standard/arith.o
+ .pdata         0x0000000000000480       0x30 proto-standard/servo.o
+ .pdata         0x00000000000004b0       0x18 proto-standard/timeout.o
+ .pdata         0x00000000000004c8       0x18 proto-standard/open-close.o
+
+.xdata          0x0000000000000000      0x40c
+ *(.xdata*)
+ .xdata         0x0000000000000000       0x1c fsm.o
+ .xdata         0x000000000000001c       0x10 diag.o
+ .xdata.startup
+                0x000000000000002c       0x14 arch-cygwin/cygwin-startup.o
+ .xdata         0x0000000000000040       0x24 arch-cygwin/main-loop.o
+ .xdata         0x0000000000000064        0x8 arch-cygwin/cygwin-io.o
+ .xdata         0x000000000000006c        0x8 arch-cygwin/cygwin-conf.o
+ .xdata         0x0000000000000074       0x34 lib/cmdline.o
+ .xdata         0x00000000000000a8       0x78 lib/conf.o
+ .xdata         0x0000000000000120       0x28 lib/libc-functions.o
+ .xdata         0x0000000000000148        0xc lib/drop.o
+ .xdata         0x0000000000000154        0x8 lib/div64.o
+ .xdata         0x000000000000015c       0x40 time-cygwin/cygwin-time.o
+ .xdata.unlikely
+                0x000000000000019c        0x8 time-cygwin/cygwin-time.o
+ .xdata         0x00000000000001a4       0x58 time-cygwin/cygwin-socket.o
+ .xdata         0x00000000000001fc       0x4c pp_printf/pp-printf.o
+ .xdata         0x0000000000000248       0x10 proto-standard/state-initializing.o
+ .xdata         0x0000000000000258        0xc proto-standard/state-faulty.o
+ .xdata         0x0000000000000264        0x4 proto-standard/state-disabled.o
+ .xdata         0x0000000000000268        0xc proto-standard/state-listening.o
+ .xdata         0x0000000000000274        0x4 proto-standard/state-pre-master.o
+ .xdata         0x0000000000000278       0x10 proto-standard/state-master.o
+ .xdata         0x0000000000000288        0xc proto-standard/state-passive.o
+ .xdata         0x0000000000000294        0x8 proto-standard/state-uncalibrated.o
+ .xdata         0x000000000000029c       0x10 proto-standard/state-slave.o
+ .xdata         0x00000000000002ac       0x5c proto-standard/common-fun.o
+ .xdata         0x0000000000000308       0x38 proto-standard/bmc.o
+ .xdata         0x0000000000000340       0x54 proto-standard/msg.o
+ .xdata         0x0000000000000394       0x28 proto-standard/arith.o
+ .xdata         0x00000000000003bc       0x2c proto-standard/servo.o
+ .xdata         0x00000000000003e8       0x14 proto-standard/timeout.o
+ .xdata         0x00000000000003fc       0x10 proto-standard/open-close.o
+
+.bss            0x0000000000000000      0x370
+ *(.bss)
+ .bss           0x0000000000000000       0x10 fsm.o
+                0x0000000000000000                pp_global_d_flags
+ .bss           0x0000000000000010        0x0 diag.o
+ *fill*         0x0000000000000010       0x10 
+ .bss           0x0000000000000020      0x140 arch-cygwin/cygwin-startup.o
+ .bss           0x0000000000000160        0x0 arch-cygwin/main-loop.o
+ .bss           0x0000000000000160        0x0 arch-cygwin/cygwin-io.o
+ .bss           0x0000000000000160        0x0 arch-cygwin/cygwin-conf.o
+ .bss           0x0000000000000160        0x0 lib/cmdline.o
+ .bss           0x0000000000000160       0x40 lib/conf.o
+                0x0000000000000160                pp_ext_arglines
+                0x0000000000000180                .weak.pp_arch_arglines.pp_config_file
+ .bss           0x00000000000001a0        0x0 lib/libc-functions.o
+ .bss           0x00000000000001a0       0x20 lib/drop.o
+ .bss           0x00000000000001c0        0x0 lib/div64.o
+ .bss           0x00000000000001c0        0x0 time-cygwin/cygwin-time.o
+ .bss           0x00000000000001c0        0x0 time-cygwin/cygwin-socket.o
+ .bss           0x00000000000001c0      0x100 pp_printf/pp-printf.o
+ .bss           0x00000000000002c0        0x0 proto-standard/fsm-table.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-initializing.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-faulty.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-disabled.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-listening.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-pre-master.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-master.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-passive.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-uncalibrated.o
+ .bss           0x00000000000002c0        0x0 proto-standard/state-slave.o
+ .bss           0x00000000000002c0        0x0 proto-standard/common-fun.o
+ .bss           0x00000000000002c0        0x0 proto-standard/bmc.o
+ .bss           0x00000000000002c0        0x0 proto-standard/msg.o
+ .bss           0x00000000000002c0        0x0 proto-standard/arith.o
+ .bss           0x00000000000002c0       0x20 proto-standard/servo.o
+ .bss           0x00000000000002e0       0x80 proto-standard/hooks.o
+                0x00000000000002e0                pp_hooks
+ .bss           0x0000000000000360       0x10 proto-standard/timeout.o
+ .bss           0x0000000000000370        0x0 proto-standard/open-close.o
+ *(COMMON)
+
+.edata
+ *(.edata)
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+
+.idata
+
+.CRT
+
+.tls
+
+.endjunk
+
+.rsrc
+ *(.rsrc)
+
+.reloc
+ *(.reloc)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug_aranges  0x0000000000000000      0x620
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 fsm.o
+ .debug_aranges
+                0x0000000000000030       0x30 diag.o
+ .debug_aranges
+                0x0000000000000060       0x30 arch-cygwin/cygwin-startup.o
+ .debug_aranges
+                0x0000000000000090       0x30 arch-cygwin/main-loop.o
+ .debug_aranges
+                0x00000000000000c0       0x30 arch-cygwin/cygwin-io.o
+ .debug_aranges
+                0x00000000000000f0       0x30 arch-cygwin/cygwin-conf.o
+ .debug_aranges
+                0x0000000000000120       0x30 lib/cmdline.o
+ .debug_aranges
+                0x0000000000000150       0x30 lib/conf.o
+ .debug_aranges
+                0x0000000000000180       0x30 lib/libc-functions.o
+ .debug_aranges
+                0x00000000000001b0       0x30 lib/drop.o
+ .debug_aranges
+                0x00000000000001e0       0x30 lib/div64.o
+ .debug_aranges
+                0x0000000000000210       0x40 time-cygwin/cygwin-time.o
+ .debug_aranges
+                0x0000000000000250       0x30 time-cygwin/cygwin-socket.o
+ .debug_aranges
+                0x0000000000000280       0x60 pp_printf/pp-printf.o
+ .debug_aranges
+                0x00000000000002e0       0x20 proto-standard/fsm-table.o
+ .debug_aranges
+                0x0000000000000300       0x30 proto-standard/state-initializing.o
+ .debug_aranges
+                0x0000000000000330       0x30 proto-standard/state-faulty.o
+ .debug_aranges
+                0x0000000000000360       0x30 proto-standard/state-disabled.o
+ .debug_aranges
+                0x0000000000000390       0x30 proto-standard/state-listening.o
+ .debug_aranges
+                0x00000000000003c0       0x30 proto-standard/state-pre-master.o
+ .debug_aranges
+                0x00000000000003f0       0x30 proto-standard/state-master.o
+ .debug_aranges
+                0x0000000000000420       0x30 proto-standard/state-passive.o
+ .debug_aranges
+                0x0000000000000450       0x30 proto-standard/state-uncalibrated.o
+ .debug_aranges
+                0x0000000000000480       0x30 proto-standard/state-slave.o
+ .debug_aranges
+                0x00000000000004b0       0x30 proto-standard/common-fun.o
+ .debug_aranges
+                0x00000000000004e0       0x30 proto-standard/bmc.o
+ .debug_aranges
+                0x0000000000000510       0x30 proto-standard/msg.o
+ .debug_aranges
+                0x0000000000000540       0x30 proto-standard/arith.o
+ .debug_aranges
+                0x0000000000000570       0x30 proto-standard/servo.o
+ .debug_aranges
+                0x00000000000005a0       0x20 proto-standard/hooks.o
+ .debug_aranges
+                0x00000000000005c0       0x30 proto-standard/timeout.o
+ .debug_aranges
+                0x00000000000005f0       0x30 proto-standard/open-close.o
+
+.zdebug_aranges
+ *(.zdebug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.zdebug_pubnames
+ *(.zdebug_pubnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.zdebug_pubtypes
+ *(.zdebug_pubtypes)
+
+.debug_info     0x0000000000000000    0x312cf
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x1bbe fsm.o
+ .debug_info    0x0000000000001bbe     0x1808 diag.o
+ .debug_info    0x00000000000033c6     0x1a6f arch-cygwin/cygwin-startup.o
+ .debug_info    0x0000000000004e35     0x17d6 arch-cygwin/main-loop.o
+ .debug_info    0x000000000000660b      0x1d2 arch-cygwin/cygwin-io.o
+ .debug_info    0x00000000000067dd     0x17b8 arch-cygwin/cygwin-conf.o
+ .debug_info    0x0000000000007f95     0x19b5 lib/cmdline.o
+ .debug_info    0x000000000000994a     0x2a58 lib/conf.o
+ .debug_info    0x000000000000c3a2      0x4b9 lib/libc-functions.o
+ .debug_info    0x000000000000c85b     0x16dc lib/drop.o
+ .debug_info    0x000000000000df37      0x243 lib/div64.o
+ .debug_info    0x000000000000e17a     0x1ed3 time-cygwin/cygwin-time.o
+ .debug_info    0x000000000001004d     0x2ccb time-cygwin/cygwin-socket.o
+ .debug_info    0x0000000000012d18      0x9cc pp_printf/pp-printf.o
+ .debug_info    0x00000000000136e4     0x16c7 proto-standard/fsm-table.o
+ .debug_info    0x0000000000014dab     0x19ce proto-standard/state-initializing.o
+ .debug_info    0x0000000000016779     0x1724 proto-standard/state-faulty.o
+ .debug_info    0x0000000000017e9d     0x13f2 proto-standard/state-disabled.o
+ .debug_info    0x000000000001928f     0x1b17 proto-standard/state-listening.o
+ .debug_info    0x000000000001ada6     0x13f6 proto-standard/state-pre-master.o
+ .debug_info    0x000000000001c19c     0x1de0 proto-standard/state-master.o
+ .debug_info    0x000000000001df7c     0x1875 proto-standard/state-passive.o
+ .debug_info    0x000000000001f7f1     0x167d proto-standard/state-uncalibrated.o
+ .debug_info    0x0000000000020e6e     0x202c proto-standard/state-slave.o
+ .debug_info    0x0000000000022e9a     0x241c proto-standard/common-fun.o
+ .debug_info    0x00000000000252b6     0x228c proto-standard/bmc.o
+ .debug_info    0x0000000000027542     0x2e37 proto-standard/msg.o
+ .debug_info    0x000000000002a379      0x6ab proto-standard/arith.o
+ .debug_info    0x000000000002aa24     0x1f7b proto-standard/servo.o
+ .debug_info    0x000000000002c99f     0x1763 proto-standard/hooks.o
+ .debug_info    0x000000000002e102     0x182a proto-standard/timeout.o
+ .debug_info    0x000000000002f92c     0x19a3 proto-standard/open-close.o
+
+.zdebug_info
+ *(.zdebug_info)
+
+.debug_abbrev   0x0000000000000000     0x4f28
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2d2 fsm.o
+ .debug_abbrev  0x00000000000002d2      0x25f diag.o
+ .debug_abbrev  0x0000000000000531      0x297 arch-cygwin/cygwin-startup.o
+ .debug_abbrev  0x00000000000007c8      0x2be arch-cygwin/main-loop.o
+ .debug_abbrev  0x0000000000000a86       0x9f arch-cygwin/cygwin-io.o
+ .debug_abbrev  0x0000000000000b25      0x1e8 arch-cygwin/cygwin-conf.o
+ .debug_abbrev  0x0000000000000d0d      0x289 lib/cmdline.o
+ .debug_abbrev  0x0000000000000f96      0x412 lib/conf.o
+ .debug_abbrev  0x00000000000013a8      0x13c lib/libc-functions.o
+ .debug_abbrev  0x00000000000014e4      0x21e lib/drop.o
+ .debug_abbrev  0x0000000000001702       0x8d lib/div64.o
+ .debug_abbrev  0x000000000000178f      0x36f time-cygwin/cygwin-time.o
+ .debug_abbrev  0x0000000000001afe      0x3d1 time-cygwin/cygwin-socket.o
+ .debug_abbrev  0x0000000000001ecf      0x2bc pp_printf/pp-printf.o
+ .debug_abbrev  0x000000000000218b      0x19f proto-standard/fsm-table.o
+ .debug_abbrev  0x000000000000232a      0x27e proto-standard/state-initializing.o
+ .debug_abbrev  0x00000000000025a8      0x26a proto-standard/state-faulty.o
+ .debug_abbrev  0x0000000000002812      0x181 proto-standard/state-disabled.o
+ .debug_abbrev  0x0000000000002993      0x2d2 proto-standard/state-listening.o
+ .debug_abbrev  0x0000000000002c65      0x181 proto-standard/state-pre-master.o
+ .debug_abbrev  0x0000000000002de6      0x2e6 proto-standard/state-master.o
+ .debug_abbrev  0x00000000000030cc      0x27f proto-standard/state-passive.o
+ .debug_abbrev  0x000000000000334b      0x20b proto-standard/state-uncalibrated.o
+ .debug_abbrev  0x0000000000003556      0x33a proto-standard/state-slave.o
+ .debug_abbrev  0x0000000000003890      0x39e proto-standard/common-fun.o
+ .debug_abbrev  0x0000000000003c2e      0x3dc proto-standard/bmc.o
+ .debug_abbrev  0x000000000000400a      0x459 proto-standard/msg.o
+ .debug_abbrev  0x0000000000004463      0x180 proto-standard/arith.o
+ .debug_abbrev  0x00000000000045e3      0x2e1 proto-standard/servo.o
+ .debug_abbrev  0x00000000000048c4      0x199 proto-standard/hooks.o
+ .debug_abbrev  0x0000000000004a5d      0x26b proto-standard/timeout.o
+ .debug_abbrev  0x0000000000004cc8      0x260 proto-standard/open-close.o
+
+.zdebug_abbrev
+ *(.zdebug_abbrev)
+
+.debug_line     0x0000000000000000     0x35cd
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x197 fsm.o
+ .debug_line    0x0000000000000197      0x155 diag.o
+ .debug_line    0x00000000000002ec      0x1ba arch-cygwin/cygwin-startup.o
+ .debug_line    0x00000000000004a6      0x192 arch-cygwin/main-loop.o
+ .debug_line    0x0000000000000638       0x83 arch-cygwin/cygwin-io.o
+ .debug_line    0x00000000000006bb       0xe4 arch-cygwin/cygwin-conf.o
+ .debug_line    0x000000000000079f      0x22a lib/cmdline.o
+ .debug_line    0x00000000000009c9      0x3e7 lib/conf.o
+ .debug_line    0x0000000000000db0      0x110 lib/libc-functions.o
+ .debug_line    0x0000000000000ec0      0x102 lib/drop.o
+ .debug_line    0x0000000000000fc2       0xa2 lib/div64.o
+ .debug_line    0x0000000000001064      0x1fc time-cygwin/cygwin-time.o
+ .debug_line    0x0000000000001260      0x468 time-cygwin/cygwin-socket.o
+ .debug_line    0x00000000000016c8      0x28a pp_printf/pp-printf.o
+ .debug_line    0x0000000000001952       0xcd proto-standard/fsm-table.o
+ .debug_line    0x0000000000001a1f      0x120 proto-standard/state-initializing.o
+ .debug_line    0x0000000000001b3f      0x112 proto-standard/state-faulty.o
+ .debug_line    0x0000000000001c51       0xd9 proto-standard/state-disabled.o
+ .debug_line    0x0000000000001d2a      0x154 proto-standard/state-listening.o
+ .debug_line    0x0000000000001e7e       0xd9 proto-standard/state-pre-master.o
+ .debug_line    0x0000000000001f57      0x188 proto-standard/state-master.o
+ .debug_line    0x00000000000020df      0x124 proto-standard/state-passive.o
+ .debug_line    0x0000000000002203      0x10a proto-standard/state-uncalibrated.o
+ .debug_line    0x000000000000230d      0x1d7 proto-standard/state-slave.o
+ .debug_line    0x00000000000024e4      0x26e proto-standard/common-fun.o
+ .debug_line    0x0000000000002752      0x2ad proto-standard/bmc.o
+ .debug_line    0x00000000000029ff      0x4f7 proto-standard/msg.o
+ .debug_line    0x0000000000002ef6      0x129 proto-standard/arith.o
+ .debug_line    0x000000000000301f      0x281 proto-standard/servo.o
+ .debug_line    0x00000000000032a0       0xc9 proto-standard/hooks.o
+ .debug_line    0x0000000000003369      0x11f proto-standard/timeout.o
+ .debug_line    0x0000000000003488      0x145 proto-standard/open-close.o
+
+.zdebug_line
+ *(.zdebug_line)
+
+.debug_frame    0x0000000000000000     0x1a10
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xe0 fsm.o
+ .debug_frame   0x00000000000000e0       0x80 diag.o
+ .debug_frame   0x0000000000000160       0x80 arch-cygwin/cygwin-startup.o
+ .debug_frame   0x00000000000001e0       0xa0 arch-cygwin/main-loop.o
+ .debug_frame   0x0000000000000280       0x40 arch-cygwin/cygwin-io.o
+ .debug_frame   0x00000000000002c0       0x48 arch-cygwin/cygwin-conf.o
+ .debug_frame   0x0000000000000308      0x138 lib/cmdline.o
+ .debug_frame   0x0000000000000440      0x2c0 lib/conf.o
+ .debug_frame   0x0000000000000700       0xf0 lib/libc-functions.o
+ .debug_frame   0x00000000000007f0       0x60 lib/drop.o
+ .debug_frame   0x0000000000000850       0x40 lib/div64.o
+ .debug_frame   0x0000000000000890      0x188 time-cygwin/cygwin-time.o
+ .debug_frame   0x0000000000000a18      0x248 time-cygwin/cygwin-socket.o
+ .debug_frame   0x0000000000000c60      0x190 pp_printf/pp-printf.o
+ .debug_frame   0x0000000000000df0       0x80 proto-standard/state-initializing.o
+ .debug_frame   0x0000000000000e70       0x60 proto-standard/state-faulty.o
+ .debug_frame   0x0000000000000ed0       0x30 proto-standard/state-disabled.o
+ .debug_frame   0x0000000000000f00       0x68 proto-standard/state-listening.o
+ .debug_frame   0x0000000000000f68       0x30 proto-standard/state-pre-master.o
+ .debug_frame   0x0000000000000f98       0x60 proto-standard/state-master.o
+ .debug_frame   0x0000000000000ff8       0x50 proto-standard/state-passive.o
+ .debug_frame   0x0000000000001048       0x50 proto-standard/state-uncalibrated.o
+ .debug_frame   0x0000000000001098       0x78 proto-standard/state-slave.o
+ .debug_frame   0x0000000000001110      0x278 proto-standard/common-fun.o
+ .debug_frame   0x0000000000001388      0x190 proto-standard/bmc.o
+ .debug_frame   0x0000000000001518      0x1e8 proto-standard/msg.o
+ .debug_frame   0x0000000000001700       0xf8 proto-standard/arith.o
+ .debug_frame   0x00000000000017f8      0x128 proto-standard/servo.o
+ .debug_frame   0x0000000000001920       0x70 proto-standard/timeout.o
+ .debug_frame   0x0000000000001990       0x80 proto-standard/open-close.o
+
+.zdebug_frame
+ *(.zdebug_frame)
+
+.debug_str      0x0000000000000000     0x2b71
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x182 fsm.o
+ .debug_str     0x0000000000000182      0x166 diag.o
+ .debug_str     0x00000000000002e8      0x1f5 arch-cygwin/cygwin-startup.o
+ .debug_str     0x00000000000004dd      0x17e arch-cygwin/main-loop.o
+ .debug_str     0x000000000000065b        0xb arch-cygwin/cygwin-io.o
+ .debug_str     0x0000000000000666      0x151 arch-cygwin/cygwin-conf.o
+ .debug_str     0x00000000000007b7      0x189 lib/cmdline.o
+ .debug_str     0x0000000000000940      0x183 lib/conf.o
+ .debug_str     0x0000000000000ac3        0x0 lib/libc-functions.o
+ .debug_str     0x0000000000000ac3      0x151 lib/drop.o
+ .debug_str     0x0000000000000c14        0x0 lib/div64.o
+ .debug_str     0x0000000000000c14      0x1c9 time-cygwin/cygwin-time.o
+ .debug_str     0x0000000000000ddd      0x1f5 time-cygwin/cygwin-socket.o
+ .debug_str     0x0000000000000fd2       0x22 pp_printf/pp-printf.o
+ .debug_str     0x0000000000000ff4      0x151 proto-standard/fsm-table.o
+ .debug_str     0x0000000000001145      0x16b proto-standard/state-initializing.o
+ .debug_str     0x00000000000012b0      0x160 proto-standard/state-faulty.o
+ .debug_str     0x0000000000001410      0x151 proto-standard/state-disabled.o
+ .debug_str     0x0000000000001561      0x19e proto-standard/state-listening.o
+ .debug_str     0x00000000000016ff      0x151 proto-standard/state-pre-master.o
+ .debug_str     0x0000000000001850      0x1ee proto-standard/state-master.o
+ .debug_str     0x0000000000001a3e      0x19e proto-standard/state-passive.o
+ .debug_str     0x0000000000001bdc      0x1b9 proto-standard/state-uncalibrated.o
+ .debug_str     0x0000000000001d95      0x260 proto-standard/state-slave.o
+ .debug_str     0x0000000000001ff5      0x208 proto-standard/common-fun.o
+ .debug_str     0x00000000000021fd      0x183 proto-standard/bmc.o
+ .debug_str     0x0000000000002380      0x1ca proto-standard/msg.o
+ .debug_str     0x000000000000254a       0x53 proto-standard/arith.o
+ .debug_str     0x000000000000259d      0x1c4 proto-standard/servo.o
+ .debug_str     0x0000000000002761      0x151 proto-standard/hooks.o
+ .debug_str     0x00000000000028b2      0x164 proto-standard/timeout.o
+ .debug_str     0x0000000000002a16      0x15b proto-standard/open-close.o
+
+.zdebug_str
+ *(.zdebug_str)
+
+.debug_loc      0x0000000000000000     0xcdf6
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x5b1 fsm.o
+ .debug_loc     0x00000000000005b1      0x2be diag.o
+ .debug_loc     0x000000000000086f      0x17d arch-cygwin/cygwin-startup.o
+ .debug_loc     0x00000000000009ec      0x3e6 arch-cygwin/main-loop.o
+ .debug_loc     0x0000000000000dd2       0x5f arch-cygwin/cygwin-io.o
+ .debug_loc     0x0000000000000e31      0x813 lib/cmdline.o
+ .debug_loc     0x0000000000001644     0x1af9 lib/conf.o
+ .debug_loc     0x000000000000313d      0x69e lib/libc-functions.o
+ .debug_loc     0x00000000000037db       0xdc lib/drop.o
+ .debug_loc     0x00000000000038b7      0x160 lib/div64.o
+ .debug_loc     0x0000000000003a17      0x78e time-cygwin/cygwin-time.o
+ .debug_loc     0x00000000000041a5     0x145b time-cygwin/cygwin-socket.o
+ .debug_loc     0x0000000000005600     0x1318 pp_printf/pp-printf.o
+ .debug_loc     0x0000000000006918      0x223 proto-standard/state-initializing.o
+ .debug_loc     0x0000000000006b3b      0x2ac proto-standard/state-faulty.o
+ .debug_loc     0x0000000000006de7      0x409 proto-standard/state-listening.o
+ .debug_loc     0x00000000000071f0      0x6ea proto-standard/state-master.o
+ .debug_loc     0x00000000000078da      0x320 proto-standard/state-passive.o
+ .debug_loc     0x0000000000007bfa      0x2e8 proto-standard/state-uncalibrated.o
+ .debug_loc     0x0000000000007ee2      0x8ba proto-standard/state-slave.o
+ .debug_loc     0x000000000000879c      0xf20 proto-standard/common-fun.o
+ .debug_loc     0x00000000000096bc     0x1169 proto-standard/bmc.o
+ .debug_loc     0x000000000000a825     0x146a proto-standard/msg.o
+ .debug_loc     0x000000000000bc8f      0x34d proto-standard/arith.o
+ .debug_loc     0x000000000000bfdc      0x991 proto-standard/servo.o
+ .debug_loc     0x000000000000c96d      0x275 proto-standard/timeout.o
+ .debug_loc     0x000000000000cbe2      0x214 proto-standard/open-close.o
+
+.zdebug_loc
+ *(.zdebug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.zdebug_macinfo
+ *(.zdebug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.zdebug_weaknames
+ *(.zdebug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.zdebug_funcnames
+ *(.zdebug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.zdebug_typenames
+ *(.zdebug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.zdebug_varnames
+ *(.zdebug_varnames)
+
+.debug_macro
+ *(.debug_macro)
+
+.zdebug_macro
+ *(.zdebug_macro)
+
+.debug_ranges   0x0000000000000000      0xfb0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x60 fsm.o
+ .debug_ranges  0x0000000000000060       0x20 arch-cygwin/cygwin-startup.o
+ .debug_ranges  0x0000000000000080       0x70 arch-cygwin/main-loop.o
+ .debug_ranges  0x00000000000000f0      0x210 lib/conf.o
+ .debug_ranges  0x0000000000000300       0x80 lib/drop.o
+ .debug_ranges  0x0000000000000380       0xd0 time-cygwin/cygwin-time.o
+ .debug_ranges  0x0000000000000450      0x130 time-cygwin/cygwin-socket.o
+ .debug_ranges  0x0000000000000580       0x60 pp_printf/pp-printf.o
+ .debug_ranges  0x00000000000005e0       0x60 proto-standard/state-faulty.o
+ .debug_ranges  0x0000000000000640       0xa0 proto-standard/state-listening.o
+ .debug_ranges  0x00000000000006e0      0x150 proto-standard/state-master.o
+ .debug_ranges  0x0000000000000830       0xa0 proto-standard/state-slave.o
+ .debug_ranges  0x00000000000008d0      0x1a0 proto-standard/common-fun.o
+ .debug_ranges  0x0000000000000a70       0xf0 proto-standard/bmc.o
+ .debug_ranges  0x0000000000000b60      0x350 proto-standard/msg.o
+ .debug_ranges  0x0000000000000eb0       0xa0 proto-standard/servo.o
+ .debug_ranges  0x0000000000000f50       0x30 proto-standard/timeout.o
+ .debug_ranges  0x0000000000000f80       0x30 proto-standard/open-close.o
+
+.zdebug_ranges
+ *(.zdebug_ranges)
+
+.debug_types
+ *(.debug_types)
+
+.zdebug_types
+ *(.zdebug_types)
+OUTPUT(ppsi.o pe-x86-64)
